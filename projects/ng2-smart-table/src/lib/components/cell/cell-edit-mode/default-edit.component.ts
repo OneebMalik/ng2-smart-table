@@ -10,6 +10,7 @@ import { Cell } from '../../../lib/data-set/cell';
 export class DefaultEditComponent extends EditCellDefault {
 
   constructor() {
+    console.log("ONEEB HELLO");
     super();
   }
 

@@ -18,6 +18,7 @@ export class EditCellDefault {
   }
 
   onStopEditing(): boolean {
+    console.log("INTERVENTION AREA");
     this.cell.getRow().isInEditing = false;
     return false;
   }
